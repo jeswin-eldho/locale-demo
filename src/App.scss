@@ -1,8 +1,14 @@
 @import './theme/bulmatheme';
 
+.progress {
+  width: 50vw;
+  margin-top: 15%;
+  margin-left: 25%;
+}
 .navbar {
   padding-left: 3rem;
   padding-right: 3rem;
+  font-size: 1.1rem;
 }
 
 .card {
@@ -14,6 +20,7 @@
   border-radius: 5%;
   display: flex;
   .color-box {
+    margin-top: 0.3rem;
     width: 1rem;
     height: 1rem;
   }
@@ -21,4 +28,23 @@
 
 .leaflet-container {
   z-index: -1;
+}
+.documentation {
+  height: 100vh;
+  padding-top: 20vh;
+  background-color: hsl(171deg, 100%, 41%);
+}
+.paragraph {
+  width: 40%;
+  color: white;
+  margin-left: 20%;
+
+  margin-top: 1rem;
+  h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
 }

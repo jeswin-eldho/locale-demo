@@ -78,7 +78,7 @@ const Maps = () => {
     <div>
       {areas && (
         <MapContainer
-          style={{ height: '90vh', width: '100vw' }}
+          style={{ height: '100vh', width: '100vw' }}
           center={[13, 77.6]}
           zoom={10}
           scrollWheelZoom={false}

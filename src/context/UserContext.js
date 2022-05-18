@@ -27,7 +27,9 @@ export const UserContextProvider = ({ children }) => {
           {children}
         </UserContext.Provider>
       ) : (
-        <div>Loading</div>
+        <progress className='progress is-large is-info' max='100'>
+          60%
+        </progress>
       )}
     </div>
   );

@@ -26,7 +26,7 @@ export const AreaContextProvider = ({ children }) => {
           {children}
         </AreaContext.Provider>
       ) : (
-        <div>Loading</div>
+        <div></div>
       )}
     </div>
   );
